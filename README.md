@@ -1,4 +1,7 @@
-# Crypto Asset Dashboard
+## Name
+Bharath Nandan Reddy K
+
+## Technologies used to build Cryptocurrency Dashboard
 
 A modern, responsive cryptocurrency dashboard built with React, TypeScript, and Tailwind CSS. Track real-time crypto prices, market data, and visualize price trends with interactive charts.
 
