@@ -4,7 +4,7 @@ A modern, responsive cryptocurrency dashboard built with React, TypeScript, and 
 
 ![Crypto Dashboard](./screenshots/dashboard-preview.png)
 
-## 🚀 Features
+## Features
 
 - **Real-time Data**: Fetches live cryptocurrency data from CoinGecko API
 - **Symbol Search**: Search by custom symbol or select from popular cryptocurrencies
@@ -14,7 +14,7 @@ A modern, responsive cryptocurrency dashboard built with React, TypeScript, and 
 - **Price Tracking**: Display current price, 24h changes, volume, and market cap
 - **Market Details**: Comprehensive market information including highs, lows, and supply data
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend Framework**: React 18 with TypeScript
 - **Build Tool**: Vite for fast development and optimized builds
@@ -24,7 +24,7 @@ A modern, responsive cryptocurrency dashboard built with React, TypeScript, and 
 - **Icons**: Lucide React
 - **API**: CoinGecko API for cryptocurrency data
 
-## 📦 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 
@@ -103,7 +103,7 @@ npm run test:coverage
 npm run clean
 ```
 
-## 🎯 Project Structure
+## Project Structure
 
 ```
 ├── public/                 # Static assets
@@ -128,7 +128,7 @@ npm run clean
 └── README.md              # Project documentation
 ```
 
-## 🎨 UI/UX Design Decisions
+## UI/UX Design Decisions
 
 ### Design Philosophy
 - **Minimalist Approach**: Clean, uncluttered interface focusing on data clarity
@@ -150,7 +150,7 @@ npm run clean
 - **Grid System**: Responsive grid adapting from 1 column (mobile) to 4 columns (desktop)
 - **Chart Integration**: Full-width charts for better data visualization
 
-## 🔌 API Integration
+## API Integration
 
 ### CoinGecko API
 The dashboard integrates with the CoinGecko API for real-time cryptocurrency data:
@@ -203,7 +203,7 @@ const fetchCryptoData = async (cryptoId: string) => {
 };
 ```
 
-## 📊 Features Breakdown
+## Features Breakdown
 
 ### 1. Cryptocurrency Selection
 - **Dropdown Menu**: Pre-populated with popular cryptocurrencies
@@ -227,7 +227,7 @@ const fetchCryptoData = async (cryptoId: string) => {
 - **Responsive Design**: Adapts to different screen sizes
 - **Color Coding**: Green for upward trends, red for downward
 
-## 🔧 Customization
+## Customization
 
 ### Adding New Cryptocurrencies
 
@@ -259,7 +259,7 @@ const CHART_CONFIG = {
 };
 ```
 
-## 🚀 Deployment
+## Deployment
 
 ### Vercel (Recommended)
 
@@ -286,7 +286,7 @@ EXPOSE 3000
 CMD ["npm", "run", "preview"]
 ```
 
-## 🚀 What to Enhance with More Time
+## What to Enhance with More Time
 
 ### Short-term Improvements (1-2 weeks)
 - **Portfolio Tracking**: Allow users to track multiple cryptocurrencies
@@ -309,7 +309,7 @@ CMD ["npm", "run", "preview"]
 - **DeFi Integration**: Track DeFi protocols and yield farming opportunities
 - **Mobile App**: React Native version for mobile platforms
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -317,11 +317,11 @@ CMD ["npm", "run", "preview"]
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [CoinGecko](https://www.coingecko.com/) for providing comprehensive cryptocurrency API
 - [shadcn/ui](https://ui.shadcn.com/) for the beautiful component library
@@ -329,13 +329,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Tailwind CSS](https://tailwindcss.com/) for the utility-first CSS framework
 - [Vite](https://vitejs.dev/) for the blazing fast build tool
 
-## 📞 Support
-
-If you have any questions or run into issues, please:
-1. Check the [Issues](https://github.com/your-username/crypto-dashboard/issues) page
-2. Create a new issue with detailed description
-3. Contact: your-email@example.com
-
 ---
-
-**Note**: This dashboard uses mock data for demonstration purposes. In a production environment, ensure you comply with CoinGecko's API terms of service and implement proper rate limiting.
