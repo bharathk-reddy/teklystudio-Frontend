@@ -1,7 +1,7 @@
 {
   "name": "crypto-asset-dashboard",
   "version": "1.0.0",
-  "homepage": "https://bharathk-reddy.github.io/teklystudio-Frontend",
+  "homepage": "https://bharathk-reddy.github.io/teklystudio-Frontend/",
   "private": true,
   "description": "A modern cryptocurrency dashboard for tracking real-time prices and market data",
   "type": "module",
